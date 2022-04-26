@@ -15,6 +15,6 @@ Here we have created a tutorial, using simulated data, to show how inlabru can b
 
 Here we have created a tutorial, using simulated data, to show how improve existing Mark Recapture models in the paper:
 
-" Residency Patterns and Abundance Estimate of Tursiops truncatus at the Tiber River Estuary (Mediterranean Sea)" by Pace D.S. et al accepted for publication in Biology (https://doi.org/10.3390/biology10040275)
+"Residency Patterns and Abundance Estimate of Tursiops truncatus at the Tiber River Estuary (Mediterranean Sea)" by Pace D.S. et al accepted for publication in Biology (https://doi.org/10.3390/biology10040275)
 
 

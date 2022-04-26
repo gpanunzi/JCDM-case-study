@@ -13,7 +13,7 @@ Here we have created a tutorial, using simulated data, to show how inlabru can b
 
 ## Case study 2 - Mark-Recapture abundance estimates
 
-Here we have created a tutorial, using simulated data, to show how improve existing Mark Recapture models in the paper:
+Here we have created a tutorial, using simulated data, to show how in the paper we improve existing Mark Recapture models:
 
 "Residency Patterns and Abundance Estimate of Tursiops truncatus at the Tiber River Estuary (Mediterranean Sea)" by Pace D.S. et al accepted for publication in Biology (https://doi.org/10.3390/biology10040275)
 

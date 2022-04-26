@@ -7,3 +7,10 @@ For each JCDM project activities a tutorial was created, using simulated data, t
 
 ## Case study 1 - Presence mapping with heterogenous data
 
+Here we have created a tutorial, using simulated data, to show how inlabru can be used to fit a model similar to the one in the paper:
+
+"Integration of presence-only data from several data sources. A case study on dolphins' spatial distribution" by S. Martino; D. Pace et al accepted for publication in Ecography (DOI 10.1111/ecog.05843)
+
+but based on simulated data.
+
+

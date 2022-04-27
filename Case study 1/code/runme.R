@@ -442,3 +442,4 @@ p5 = ggplot() + gg(r3, aes(color = layer)) + scale_color_scico() +
 
 
 p1+p2+p4+p4 + p5  + plot_layout(ncol = 2)
+

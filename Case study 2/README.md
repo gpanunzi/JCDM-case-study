@@ -10,7 +10,7 @@ The model classifies the dolphins according to their site-fidelity patterns and 
 
 Install the last version of MARK [MARK](http://www.phidot.org/software/mark/downloads/).
 
-See the [website](https://smar-git.github.io/SM-data-merging/.)
+To obtain results similar to the paper it is necessary to carry out clustering first [clustering](https://github.com/gpanunzi/JCDM-case-study/blob/main/Case%20study%202/ClusterGit.R) and then the abundance estimation [abundance estimation](https://github.com/gpanunzi/JCDM-case-study/blob/main/Case%20study%202/PopanGit.R)
 
 ## Observed data
 The observed sighthings are also available [here](https://github.com/gpanunzi/JCDM-case-study/blob/main/Case%20study%202/Data/raw_data_turs.txt) together with a text file describing the dataset. 

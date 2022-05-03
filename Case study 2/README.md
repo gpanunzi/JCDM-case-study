@@ -13,5 +13,5 @@ Install the last version of MARK [MARK](http://www.phidot.org/software/mark/down
 See the [website](https://smar-git.github.io/SM-data-merging/.)
 
 ## Observed data
-The observed sighthings are also available [here](https://github.com/smar-git/SM-data-merging/tree/main/Observed_Sightings) together with a text file describing the dataset. 
+The observed sighthings are also available [here](https://github.com/gpanunzi/JCDM-case-study/blob/main/Case%20study%202/Data/raw_data_turs.txt) together with a text file describing the dataset. 
 

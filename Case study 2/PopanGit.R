@@ -263,4 +263,3 @@ data.frame("Lower" = c(Ntot_est/(c_hat), NtotRes_est/(c_hatRes), NtotNRes_est/(c
 NTot_est_ByOcc %>% ggplot() + geom_point(aes(x=date, y=est)) + 
   geom_segment(aes(x=date, xend=date, y=est/chat, yend=est*chat)) + 
   theme_light()
-

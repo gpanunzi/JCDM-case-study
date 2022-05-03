@@ -1,0 +1,22 @@
+Descriptions
+ 
+A dataset containing containing a sighting indicator for each individual during each boat surveys.
+ 
+Format:
+ 
+  A dataframe with 32315 rows and 7 variables:
+ 
+  ID: Dolphin "name"
+  
+  Mark level: Goodness of marking of the individuals, one of well marked ("WM"), fairly marked ("FM") and unmarked ("UM")
+       
+  Age class: Age class of the individuals
+  
+  Gender: Gender of the individuals, one of "F", "M", "U"
+  
+  TOT: Total number of sighting days
+  
+  Data: Date of sighting
+  
+  Observed: 1 if during the research day, the individual was sighted 
+            0 otherwise

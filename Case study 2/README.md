@@ -8,7 +8,7 @@ Here we have created a tutorial, using simulated data, to show how in the paper 
 
 The model classifies the dolphins according to their site-fidelity patterns and then, with the classification obtained, it makes estimates of abundance.
 
-Install the last version of MARK [MARK](http://www.phidot.org/software/mark/downloads/).
+Install the last version of [MARK](http://www.phidot.org/software/mark/downloads/).
 
 To obtain results similar to the paper it is necessary to carry out [clustering](https://github.com/gpanunzi/JCDM-case-study/blob/main/Case%20study%202/ClusterGit.R) first  and then the [abundance](https://github.com/gpanunzi/JCDM-case-study/blob/main/Case%20study%202/PopanGit.R) estimation 
 

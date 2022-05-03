@@ -26,27 +26,27 @@ Occs <- data_turs %>% distinct(Data) %>% mutate(Occs=1:nrow(.), Times=cumsum(c(0
 # Metrics based on the original occasions: Relative Span-Time, Periodicity, Resight Rate, Sight Rate
 ClusVar <- data_turs %>% dplyr::select(-`Mark level`, -`Age class`, -Gender) %>% 
   left_join(Occs, by="Data") %>% mutate(maxOcc=max(Occs), maxTime=max(Times)) %>% 
-  group_by(ID) %>% summarise(firstOcc = min(Occs[Avvistato==1]),
-                             firstTime = min(Times[Avvistato==1]),
-                             lastTime = max(Times[Avvistato==1]),
+  group_by(ID) %>% summarise(firstOcc = min(Occs[Observed==1]),
+                             firstTime = min(Times[Observed==1]),
+                             lastTime = max(Times[Observed==1]),
                              spanTime = (lastTime-firstTime),
                              spanTimeRel = spanTime/maxTime[1],
-                             Periodicity = 1/mean(diff(Times[Avvistato==1])),
-                             Resight=(sum(Avvistato)-1)/min(maxOcc-firstOcc), 
-                             Sights=mean(Avvistato)) %>% 
+                             Periodicity = 1/mean(diff(Times[Observed==1])),
+                             Resight=(sum(Observed)-1)/min(maxOcc-firstOcc), 
+                             Sights=mean(Observed)) %>% 
   mutate(Periodicity = ifelse(is.nan(Periodicity), 0, Periodicity)) %>% 
   select(-firstOcc, -firstTime, -lastTime, -spanTime)
 
 # Appending the Monthly rate (computed using the occasions grouped by month)
 ClusVar$MRate <- data_turs %>% dplyr::select(-`Mark level`, -`Age class`, -Gender) %>% 
   left_join(Occs, by="Data") %>%
-  group_by(ID, YM) %>% summarise(MSight=as.numeric(sum(Avvistato)>0)) %>% 
+  group_by(ID, YM) %>% summarise(MSight=as.numeric(sum(Observed)>0)) %>% 
   group_by(ID) %>% summarise(MRate=mean(MSight)) %$% MRate
 
 # Appending the Yearly rate (computed using the occasions grouped by year)
 ClusVar$YRate <- data_turs %>% dplyr::select(-`Mark level`, -`Age class`, -Gender) %>% 
   left_join(Occs, by="Data") %>%
-  group_by(ID, Y) %>% summarise(YSight=as.numeric(sum(Avvistato)>0)) %>% 
+  group_by(ID, Y) %>% summarise(YSight=as.numeric(sum(Observed)>0)) %>% 
   group_by(ID) %>% summarise(YRate=mean(YSight)) %$% YRate
 
 

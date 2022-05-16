@@ -2,7 +2,7 @@
 
 
 ## Tutorial
-Here we have created a tutorial, using simulated data, to show how in the paper we improve existing Mark Recapture models:
+Here we have created a tutorial to show how in the paper we improve existing Mark Recapture models:
 
 "Residency Patterns and Abundance Estimate of Tursiops truncatus at the Tiber River Estuary (Mediterranean Sea)" by Pace D.S. et al accepted for publication in Biology (https://doi.org/10.3390/biology10040275)
 

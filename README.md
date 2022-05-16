@@ -3,7 +3,7 @@ Joint Cetacean Database and Mapping (JCDM) is an initiative resulted from a join
 
 # Case study
 
-For each JCDM project activities a tutorial was created, using simulated data, to show how fit the models in a similar way to how they were applied in the publications
+For each JCDM project activities we create a tutorial, using simulated data, to show how fit the models in a similar way to how they were applied in the publications
 
 ## Case study 1 - Presence mapping with heterogenous data
 
